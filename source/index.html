@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <include src="source/components/head.html"></include>
+  <body>
+    <include src="source/components/header.html"></include>
+    <main class="main-page">
+      <section class="main-table">
+        <div class="main-table__container container">
+          <div class="main-table__top">
+            <h1 class="main-table__title section-title">Pantone colors</h1>
+            <button type="button" class="main-table__button button js-btn-reset" disabled>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <use xlink:href="img/sprite.svg#icon-reset"/>
+              </svg>
+              Reset
+            </button>
+          </div>
+          <div class="main-table__wrapper table">
+            <include src="source/components/table.html"></include>
+          </div>
+        </div>
+      </section>
+    </main>
+    <include src="source/components/footer.html"></include>
+    <include src="source/components/scripts.html"></include>
+  </body>
+</html>
