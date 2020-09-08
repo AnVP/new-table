@@ -1,0 +1,20 @@
+.form {
+  &__checkbox {
+    display: flex;
+    align-items: center;
+
+    & input[type="checkbox"] {
+      margin-right: 4px;
+    }
+
+    & label {
+      font-family: $font;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $black;
+    }
+  }
+}

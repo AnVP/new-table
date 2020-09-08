@@ -1,3 +1,25 @@
 .button {
   @include btn-reset;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 21px;
+  color: $blue;
+  transition: opacity $style-change-duration;
+
+  & svg {
+    margin-right: 4px;
+  }
+
+  &:disabled {
+    color: $grey;
+  }
+
+  &:not(:disabled):hover {
+    opacity: 0.8;
+  }
+
+  &:focus {
+    outline: none;
+  }
 }

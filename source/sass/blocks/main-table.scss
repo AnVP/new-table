@@ -1,0 +1,14 @@
+.main-table {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    background-color: $white;
+  }
+
+  &__wrapper {
+    width: 100%;
+    overflow-x: auto;
+    background-color: $white;
+  }
+}

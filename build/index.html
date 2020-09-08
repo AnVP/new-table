@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <title>Pantone colors</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preload" href="fonts/SegoeUI.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/SegoeUI-Bold.woff2" as="font" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+  <body>
+    <header class="header">
+</header>
+
+    <main class="main-page">
+      <section class="main-table">
+        <div class="main-table__container container">
+          <div class="main-table__top">
+            <h1 class="main-table__title section-title">Pantone colors</h1>
+            <button type="button" class="main-table__button button js-btn-reset" disabled="">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <use xlink:href="img/sprite.svg#icon-reset"></use>
+              </svg>
+              Reset
+            </button>
+          </div>
+          <div class="main-table__wrapper table">
+            <table>
+  <thead>
+    <tr>
+      <th>
+        <form action="#" class="form">
+          <div class="form__checkbox">
+            <input type="checkbox" name="id" id="id" value="1" checked="">
+            <label for="id">Id</label>
+          </div>
+        </form>
+      </th><th>
+        <form action="#" class="form">
+          <div class="form__checkbox">
+            <input type="checkbox" name="name" id="name" value="2" checked="">
+            <label for="name">Name</label>
+          </div>
+        </form>
+      </th>
+      <th>
+        <form action="#" class="form">
+          <div class="form__checkbox">
+            <input type="checkbox" name="year" id="year" value="3" checked="">
+            <label for="year">Year</label>
+          </div>
+        </form>
+      </th>
+      <th>
+        <form action="#" class="form">
+          <div class="form__checkbox">
+            <input type="checkbox" name="color" id="color" value="4" checked="">
+            <label for="color">Color</label>
+          </div>
+        </form>
+      </th>
+      <th>
+        <form action="#" class="form">
+          <div class="form__checkbox">
+            <input type="checkbox" name="value" id="value" value="5" checked="">
+            <label for="value">Pantone value</label>
+          </div>
+        </form>
+      </th>
+    </tr>
+  </thead>
+  <tbody id="table" data-url="https://reqres.in/api/unknown?per_page=12">
+    <!-- table -->
+  </tbody>
+</table>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+</footer>
+
+    <script src="js/vendor.js"></script>
+<script src="js/main.js"></script>
+
+  </body>
+</html>

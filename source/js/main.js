@@ -1,1 +1,2 @@
-//= modules/console.js
+//= modules/ajax.js
+//= modules/table.js
