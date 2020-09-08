@@ -1,3 +1,0 @@
-@function calc-vw($pixels) {
-  @return $pixels/(1920/100) + vw;
-}
